@@ -12,6 +12,7 @@ function Horizontal() {
       slidesPerView={1}
       pagination={{ clickable: true }}
       initialSlide={3}
+      lazy
     >
       <SwiperSlide>
         <img className="image" src="https://via.placeholder.com/700" alt="" />

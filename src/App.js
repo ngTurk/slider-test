@@ -14,6 +14,7 @@ function App() {
       slidesPerView={1}
       pagination={{ clickable: true }}
       direction="vertical"
+      lazy
     >
       <SwiperSlide>
         <Horizontal />
