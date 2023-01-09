@@ -3,9 +3,7 @@ import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Horizontal from './Horizontal';
-
-function App() {
+function Horizontal() {
   return (
     <Swiper
       // install Swiper modules
@@ -13,22 +11,22 @@ function App() {
       spaceBetween={0}
       slidesPerView={1}
       pagination={{ clickable: true }}
-      direction="vertical"
+      initialSlide={3}
     >
       <SwiperSlide>
-        <Horizontal />
+        <img className="image" src="https://via.placeholder.com/700" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <Horizontal />
+        <img className="image" src="https://via.placeholder.com/700" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <Horizontal />
+        <img className="image" src="https://via.placeholder.com/700" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <Horizontal />
+        <img className="image" src="https://via.placeholder.com/700" alt="" />
       </SwiperSlide>
     </Swiper>
   );
 }
 
-export default App;
+export default Horizontal;
